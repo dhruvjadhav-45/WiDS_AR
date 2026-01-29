@@ -1,0 +1,18 @@
+# Augmented Reality Face Tracking and Overlay System
+
+**Student Name:** Dhruv Pushkar Jadhav  
+**Roll No.:** 24B2418  
+**Mentor:** Krisha Biradar  
+**Program:** Winter in Data Science (WiDS)  
+
+## Project Overview
+This repository contains the source code for an AR application capable of real-time facial geometry identification and virtual object overlay.
+
+**Key Features:**
+*   **Phase 1 (Segmentation):** Implements the **GrabCut algorithm** using Gaussian Mixture Models for precise background removal and alpha channel generation.
+*   **Phase 2 (Tracking):** Leverages **MediaPipe’s 478-point Face Mesh** for sub-pixel accuracy.
+*   **Dynamic Overlay:** Features adaptive asset scaling based on Euclidean eye distance and **Exponential Moving Average (EMA)** filtering ($\alpha=0.7$) to eliminate sensor jitter.
+
+**Tech Stack:** Python, OpenCV, MediaPipe, NumPy.
+```
+
